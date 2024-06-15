@@ -1,9 +1,40 @@
 
 /* keyboard */
 
-.keyboard {
-  width: 750px;
-  height: 350px;
-  background-color: #6d6d6d;
-  border: 3px solid green;
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ebebeb;
 }
+
+.keyboard {
+  display: inline-block;
+  width: 700px;
+  height: 300px;
+  background-color: #d1d1d1;
+  border: 3px solid #cfcfcf;
+  border-radius: 0.5em;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+
+.key {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 13px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  transition: background-color 0.2s;
+}
+
