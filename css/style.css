@@ -12,6 +12,26 @@ body {
   background-color: #e7e7e7;
 }
 
+/** Navigation **/
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-indent: 10px;
+}
+
+#logo a {
+  background: url(../lib/icons/keyboard.svg), 
+  linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 2px;
+  padding-left: 20px;
+}
+
+
+
+/** Virtual Keyboard **/
+
 .container {
   display: flex;
   flex-direction: column;

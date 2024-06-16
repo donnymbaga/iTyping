@@ -1,12 +1,10 @@
 
+Learn and improve your touch typing skills with iTyping.
+Practice your typing skills free and improve your typing speed.
 
-A simple and robust to learn and practice touch typing on the web.
+iTyping is a free touch typing courseware running directly in your browser. 
+It assists you to practice your keyboard skills efficiently and 
+therefore increase your typing speed immensely.
 
- @@ Key Features
-    
-    - Typing Lessons
-    - Practice Lessons
-    - Typing Games
-    - Progress Tracking 
-    - Virtual Keyboard Display
-    - Feedback On Errors n Speed
+
+
