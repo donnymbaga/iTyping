@@ -21,8 +21,8 @@ body {
 }
 
 .keyboard {
-  width: 750px;
-  height: 350px;
+  width: 700px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -32,9 +32,13 @@ body {
   background-color: #898989;
   border: 5px solid #cfcfcf;
   border-radius: 1.0em;
-  padding: 25px 25px;
+  padding: 20px 25px;
   box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
+}
+
+#tab_key {
+  width: 70px;
 }
 
 #space_key {
@@ -42,23 +46,23 @@ body {
 }
 
 #caps_lock {
-  width: 70px;
+  width: 85px;
 }
 
 #enter_key {
-  width: 70px;
+  width: 85px;
 }
 
 #left_shift {
-  padding: 0 45px;
+  width: 100px;
 }
 
 #right_shift {
-  padding: 0 45px;
+  width: 100px;
 }
 
 #backspace {
-  padding: 0 38px;
+  width: 85px;
 }
 
 .row {
@@ -70,14 +74,20 @@ body {
 }
 
 .key {
-  border: 0.5px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
   background-color: #f5f5f5;
 }
 
 button {
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: center;
 }
 
