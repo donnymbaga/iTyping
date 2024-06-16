@@ -1,40 +1,61 @@
 
 /* keyboard */
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
-  background-color: #ebebeb;
+  background-color: #d1d1d1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80vh;
 }
 
 .keyboard {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: stretch;
   width: 700px;
   height: 300px;
   background-color: #d1d1d1;
   border: 3px solid #cfcfcf;
   border-radius: 0.5em;
-  padding: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .row {
   display: flex;
-  justify-content: center;
-  margin-bottom: 7px;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .key {
-  border: 1px solid #ccc;
+  border: 0.5px solid #ccc;
   border-radius: 5px;
-  padding: 8px 13px;
-  margin: 2px;
+  padding: 8px 10px;
+  margin-left: 2px;
   cursor: pointer;
   background-color: #f5f5f5;
   transition: background-color 0.2s;
+  width: 45px;
+}
+
+button {
 }
 
