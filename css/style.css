@@ -13,22 +13,17 @@ body {
 }
 
 /** Navigation **/
+
 .navbar-brand {
   font-weight: bold;
   letter-spacing: 3px;
   text-indent: 10px;
 }
 
-#logo a {
-  background: url(../lib/icons/keyboard.svg), 
-  linear-gradient(transparent, transparent);
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding: 2px;
-  padding-left: 20px;
+.bi-keyboard-fill {
+  font-size: 1.5rem;
+  color: #c9c9c9;		
 }
-
-
 
 /** Virtual Keyboard **/
 
